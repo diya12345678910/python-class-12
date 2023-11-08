@@ -1,0 +1,14 @@
+def sum(c,b,d):
+    e=(c**3)+(b**3)+(d**3)
+    return e
+    
+def armstrong():
+    a=input("enter a number")
+    c=a[0]
+    b=a[1]
+    d=a[2]
+    e=sum(int(c),int(b),int(d))
+    if e==int(a):
+        print(a,"is a armstrong number")
+
+armstrong()
