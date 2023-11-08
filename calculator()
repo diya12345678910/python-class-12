@@ -1,0 +1,29 @@
+def add(a,b):
+    print(a+b)
+def sub(a,b):
+    if a>b:
+        print(a-b)
+    else:
+        print(b-a)
+def mul(a,b):
+    print(a*b)
+def div(a,b):
+    if a>b:
+        print(a/b)
+    else:
+        print(b/a)
+def calculator():
+    a=int(input("enter a number"))
+    b=int(input("enter a number"))
+    c=input("what operation would you perform")
+    if c=="+":
+        add(a,b)
+    elif c=="-":
+        sub(a,b)
+    elif c=="x":
+        mul(a,b)
+    elif c=="/":
+        div(a,b)
+    else:
+        print("not a vilid option")
+calculator()
